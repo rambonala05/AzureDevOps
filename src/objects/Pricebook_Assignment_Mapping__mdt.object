@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This custom metadata setting is used in the OpportunityTriggerHandler to assign pricebooks based on the mapping inserted.</description>
+    <fields>
+        <fullName>Currency_ISO_Code__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Currency ISO Code</label>
+        <length>5</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pricebook_Id__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Fill the pricebook Id related to the pricebook name</inlineHelpText>
+        <label>Pricebook Id</label>
+        <length>18</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pricebook_Name__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Enter the pricebook name for the Country specified</inlineHelpText>
+        <label>Pricebook Name</label>
+        <required>true</required>
+        <type>TextArea</type>
+    </fields>
+    <label>Pricebook Assignment Mapping</label>
+    <pluralLabel>Pricebook Assignment Mappings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>
